@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    overflow-x: hidden;
+    
+
+}
+.border{
+    position: absolute;
+    width:70vh;
+    height:70vh;
+    background-color:red;
+    border-radius:50% 40% 10% 40%;
+    left: 60%;
+    top: 25%;
+    box-shadow: -10px -10px 20px inset white;
+    transition: 1s;
+}
+#cover{
+    position: absolute;
+    width:50vh;
+    left: 10%;
+    top: -30%;   
+    transition: .5s;
+}
+#cover:hover{
+    left: 7%;   
+
+}
+.border:hover{
+    left: 61.5%;
+
+}
+nav{
+    background-color: black;
+    height: 10vh;
+    width: 100vw;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 25px 5vw;
+    display: inline;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    opacity: 80%;
+    padding-bottom: 20%;
+    transition: .3s;
+}
+nav ul li a:hover{
+    opacity: 100%;
+    color: white;
+    border-bottom: 1px solid red;
+}
+.contant{
+   width: 40vw;
+   height: 70vh;
+   margin-top: 20vh;
+   margin-left: 8vw;
+   text-align: center;
+}
+.section1,.section2
+{
+    overflow-y: scroll;
+scroll-behavior: smooth;
+width: 100vw;
+height: 100vh;
+transition: .3s;
+}
+.section2{
+    text-align: center;
+    background-color: rgba(255, 194, 204, 0.692);
+}
+
+.section2 img{
+    margin-top: -50px;
+    width:28vw;
+    transition: .6s;
+}
+footer{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    text-align: center;
+    width: 100%;
+    height: 20vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+span{
+    margin-top: 10px;
+}
+.email{
+    margin-top: 20px;
+}
+.border2{
+    position: absolute;
+    width:70vh;
+    height:70vh;
+  background-color: rgb(255, 110, 134);
+
+    border-radius:50% 40% 10% 40%;
+    left: 60%;
+    top: 120%;
+    box-shadow: -10px -10px 20px inset white;
+    transition: 1s;
+}
+.border2:hover{
+    left: 61%;
+}
+.section1{
+    background-color: azure;
+    
+
+}
+.section2 img:hover{
+  margin-left: -20px;
+}
